@@ -1,1 +1,3 @@
-# data_visualization
+# Data Visualizations
+
+A collection of visualizations created with different data sets.
