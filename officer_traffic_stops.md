@@ -5,8 +5,7 @@ Thursday, August 7th, 2018
 
 `Officer_Traffic_Stops.csv` is a record of traffic stops by police officers in Charlotte, North Carolina.
 
-    ## Scale for 'fill' is already present. Adding another scale for 'fill',
-    ## which will replace the existing scale.
+
 
 ![](officer_traffic_stops_files/figure-markdown_github/unnamed-chunk-3-1.png)
 
