@@ -9,11 +9,15 @@ Thursday, August 7th, 2018
 
 ![](officer_traffic_stops_files/figure-markdown_github/unnamed-chunk-3-1.png)
 
-Figure 1 arrests, as one would probably assume without even looking at the data set, are highest among black drivers. They were by far the highest for any reason of the arrest, but astronomically high for vehicle regulatory stops. Perhaps that is the easiest reason for the officer to pull people over without their rationale being questioned. It is also notable that the only category in which it appears black and white drivers are stopped somewhat equally is at a check point, which would make sense because officers don't choose who they stop at a check point.
+Figure 1 
+
+Arrests, as one would probably assume without even looking at the data set, are highest among black drivers. They were by far the highest for any reason of the arrest, but astronomically high for vehicle regulatory stops. Perhaps that is the easiest reason for the officer to pull people over without their rationale being questioned. It is also notable that the only category in which it appears black and white drivers are stopped somewhat equally is at a check point, which would make sense because officers don't choose who they stop at a check point.
 
 ![](officer_traffic_stops_files/figure-markdown_github/unnamed-chunk-4-1.png)
 
-Figure 2 One would naturally expect a higher rate of blacks arrested when the data is examined one per month basis. However, what is unexpected is that the peak months for arrests between blacks and whites do not coincide. If arrest rates where simply higher among blacks overall, one could expect the count of arrests per month to be more uniform between the two groups. I would wonder if the particularly higher rate of black driver arrests in April correlated with any local or national events. If the correlation were true, it would further suggest basis in arresting officers is present and changeable.
+Figure 2 
+
+One would naturally expect a higher rate of blacks arrested when the data is examined one per month basis. However, what is unexpected is that the peak months for arrests between blacks and whites do not coincide. If arrest rates where simply higher among blacks overall, one could expect the count of arrests per month to be more uniform between the two groups. I would wonder if the particularly higher rate of black driver arrests in April correlated with any local or national events. If the correlation were true, it would further suggest basis in arresting officers is present and changeable.
 
 ![](officer_traffic_stops_files/figure-markdown_github/unnamed-chunk-5-1.png)
 
