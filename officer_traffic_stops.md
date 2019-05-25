@@ -1,4 +1,4 @@
-Officer\_Traffic\_Stops
+Officer Traffic Stops
 ================
 Quinn Keck
 Thursday, August 7th, 2018
@@ -9,7 +9,7 @@ Thursday, August 7th, 2018
 
 ![](officer_traffic_stops_files/figure-markdown_github/unnamed-chunk-3-1.png)
 
-Figure 1 Arrests, as one would probably assume without even looking at the data set, are highest among black drivers. They were by far the highest for any reason of the arrest, but astronomically high for vehicle regulatory stops. Perhaps that is the easiest reason for the officer to pull people over without their rationale being questioned. It is also notable that the only category in which it appears black and white drivers are stopped somewhat equally is at a check point, which would make sense because officers don't choose who they stop at a check point.
+Figure 1 arrests, as one would probably assume without even looking at the data set, are highest among black drivers. They were by far the highest for any reason of the arrest, but astronomically high for vehicle regulatory stops. Perhaps that is the easiest reason for the officer to pull people over without their rationale being questioned. It is also notable that the only category in which it appears black and white drivers are stopped somewhat equally is at a check point, which would make sense because officers don't choose who they stop at a check point.
 
 ![](officer_traffic_stops_files/figure-markdown_github/unnamed-chunk-4-1.png)
 
