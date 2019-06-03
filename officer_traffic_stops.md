@@ -1,32 +1,21 @@
-Officer Traffic Stops
+Charlotte Officer Traffic Stops
 ================
 Quinn Keck
-Thursday, August 7th, 2018
+May 31, 2019
 
-`Officer_Traffic_Stops.csv` is a record of traffic stops by police officers in Charlotte, North Carolina.
+Introduction
+============
 
+Officer\_Traffic\_Stops.csv is a record of traffic stops by police officers in Charlotte, North Carolina and can be accessed at <https://charlottenc.gov/CMPD/Pages/Resources/OpenData_Source.aspx>. The data in this analysis is from January 2016 to December 2016. Under North Carolina state law, all law enforcement agencies are required to collect information on all traffic stops and report this information to the North Carolina Department of Justice.
 
+![](officer_traffic_stops_files/figure-markdown_github/unnamed-chunk-2-1.png)
 
-![](officer_traffic_stops_files/figure-markdown_github/unnamed-chunk-3-1.png)
+Unsurprisingly, Black drivers are stopped most frequently for any reason in Charlotte. Vehicle regulatory stops had the most disproportionate number of black drivers stopped, while check points were the most evenly distributed. Perhaps this is because police officers would stop drivers at random at check points but choose who they would pull over for other stops.
 
-Figure 1 
+![](officer_traffic_stops_files/figure-markdown_github/unnamed-chunk-3-1.png)![](officer_traffic_stops_files/figure-markdown_github/unnamed-chunk-3-2.png)
 
-Arrests, as one would probably assume without even looking at the data set, are highest among black drivers. They were by far the highest for any reason of the arrest, but astronomically high for vehicle regulatory stops. Perhaps that is the easiest reason for the officer to pull people over without their rationale being questioned. It is also notable that the only category in which it appears black and white drivers are stopped somewhat equally is at a check point, which would make sense because officers don't choose who they stop at a check point.
+Looking at the data on a per month basis and comparing distribution of black and white women drivers to the distribution of all drivers, interesting patterns emerge. The peak months for arrests between blacks and whites do not coincide as one might expect. Perhaps the particularly higher rate of black driver arrests in April correlated with local or national events. The distribution of arrests rates takes on a different shape when only looking at black and white female drivers and demonstrates the intersectionality between racism and gender. This data only includes male and female gender labels, and it is likely there were gender non-conforming people in the 79,884 observations that were coded incorrectly. The racial basis of officers may affect them differently as well.
 
 ![](officer_traffic_stops_files/figure-markdown_github/unnamed-chunk-4-1.png)
 
-Figure 2 
-
-One would naturally expect a higher rate of blacks arrested when the data is examined one per month basis. However, what is unexpected is that the peak months for arrests between blacks and whites do not coincide. If arrest rates where simply higher among blacks overall, one could expect the count of arrests per month to be more uniform between the two groups. I would wonder if the particularly higher rate of black driver arrests in April correlated with any local or national events. If the correlation were true, it would further suggest basis in arresting officers is present and changeable.
-
-![](officer_traffic_stops_files/figure-markdown_github/unnamed-chunk-5-1.png)
-
-Figure 2.2
-
-Arrest rates between black women and white women had different peak months then the general population, though this is possibly due to the lower sample size. It is also interesting that on a per month basis, more black women are arrested than white women, but the discrepancy is far less severe than with the whole population. In January more white women were arrested, perhaps there was some local event that caused this spike. It could indicate that the racial basis effects black women and black men differently. Black men may be viewed as more of a threat to officers, thus the bigger difference in the rates of arrest between black drivers and white drivers in general compared to female drivers. I also wonder if there were any trans and gender non-conforming people in 79,884 observations that were coded incorrectly, if there was a large enough sample of trans and gender non-conforming people, I suspect the racial basis of officers may effect them differently as well.
-
-![](officer_traffic_stops_files/figure-markdown_github/unnamed-chunk-6-1.png)
-
-Figure 3
-
-Officers with the least years of experience tend to arrest black drivers in their mid-twenties at an significantly higher rate then any other group. As years of experience increases, however, officers arrest black drivers of all ages at a more uniform rate. This discrepancy seems rather high to be due to chance, and I would wonder if this reflects a basis that white officers are coming in with and may change as they work longer, or is due to other factors. It would be useful to devise a randomized experiment where cops are asked if they would pull people over, arrest them, etc, in different situations while not knowing the researcher was looking for racial basis. It would also be interesting to look in the 2017 data, and see if there were shifts in rates due to national events like the Charlottesville, Virginia protest. It is also notable that the CMPD website says the department conducts an estimated 120,000 stops per year, but this data set only includes 79,884 observations (<http://charlottenc.gov/CMPD/Pages/Resources/OpenData_Source.aspx>). I wonder if the missing observations would change the data significantly.
+Officers with the least years of experience tend to arrest black drivers in their mid-twenties at a significantly higher rate than any other group. As years of experience increases, however, officers arrest black drivers of all ages at a more uniform rate. This discrepancy seems rather high to be due to chance alone and could reflect a particularly high basis that white officers are coming in with and or a high amount of turnover among officers so that there are far fewer officers with many years of experience. Further study of more years of data to see if these patterns are consistent over time would provide more insights. It is also notable that the CMPD website says the department conducts an estimated 120,000 stops per year, but this data set only includes 79,884 observations, and those missing observations could affect these findings. There is nonetheless a clear bias of officers towards black drivers, particularly black male drivers, that needs to change.
