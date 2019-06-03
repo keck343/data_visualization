@@ -3,9 +3,6 @@ Charlotte Officer Traffic Stops
 Quinn Keck
 May 31, 2019
 
-Introduction
-============
-
 Officer\_Traffic\_Stops.csv is a record of traffic stops by police officers in Charlotte, North Carolina and can be accessed at <https://charlottenc.gov/CMPD/Pages/Resources/OpenData_Source.aspx>. The data in this analysis is from January 2016 to December 2016. Under North Carolina state law, all law enforcement agencies are required to collect information on all traffic stops and report this information to the North Carolina Department of Justice.
 
 ![](officer_traffic_stops_files/figure-markdown_github/unnamed-chunk-2-1.png)
